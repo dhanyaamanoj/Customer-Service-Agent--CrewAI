@@ -1,0 +1,9 @@
+{
+    "update_statuses": [
+        {
+            "request_id": "REQ001",
+            "status": "Success",
+            "error": null
+        }
+    ]
+}

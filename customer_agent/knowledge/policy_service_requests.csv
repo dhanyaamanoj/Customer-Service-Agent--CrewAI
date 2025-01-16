@@ -1,0 +1,8 @@
+Request_ID,Customer_ID,Request_Type,Changes,Flag,Resolution_Time
+REQ001,84966,Update Address,"New Address: 1235, Springfield",0,0
+REQ002,95568,Update Policy type,New type: Family,0,0
+REQ003,10544,Name change,New Name: Achal,0,0
+REQ004,77033,Name change,Adesh,0,0
+REQ005,88160,Update Policy type,New type: Group,0,0
+REQ006,00000,Update Address,New Address: 2 Spooner Street,0,0
+

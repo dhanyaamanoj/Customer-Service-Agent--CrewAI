@@ -1,0 +1,23 @@
+reasoning_task:
+  description: >
+      Execute PDFReadTool.
+  expected_output: >
+    A dictionary with the keys `customer_id`, `request_id`, `column_name`, and `new_details`.
+  agent: reasoner
+
+execution_task:
+  description: >
+     Execute the update tool and return the output.
+  expected_output: >
+    Update status of each request ID.
+  agent: executor
+
+feedback_task:
+  description: >
+    Based on the output provided by the `MasterDataUpdaterTool` through the executor, analyze the result for each request ID:
+    - If the update was successful (status: success), set the flag to `1` and add the resolution message.
+    - If there was an error (status: failure), set the flag to `0` and add the error message.
+    
+  expected_output: >
+    Status update in the CSV with the flag set to `1` (success) or `0` (failure), and resolution message recorded.
+  agent: feedback_manager

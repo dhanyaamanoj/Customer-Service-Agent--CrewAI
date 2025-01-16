@@ -1,0 +1,34 @@
+{
+    "update_statuses": [
+        {
+            "request_id": "REQ001",
+            "status": "Success",
+            "error": null
+        },
+        {
+            "request_id": "REQ002",
+            "status": "Success",
+            "error": null
+        },
+        {
+            "request_id": "REQ003",
+            "status": "Success",
+            "error": null
+        },
+        {
+            "request_id": "REQ004",
+            "status": "Success",
+            "error": null
+        },
+        {
+            "request_id": "REQ005",
+            "status": "Success",
+            "error": null
+        },
+        {
+            "request_id": "REQ006",
+            "status": "Failed",
+            "error": "Customer ID `0` not found."
+        }
+    ]
+}
